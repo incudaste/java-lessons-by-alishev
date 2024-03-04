@@ -13,6 +13,6 @@ class L3_Strings {
 		String germanCompanyName = "Volkswagen";
 		
 		System.out.println(americanCompanyName
-		                  + " & " + germanCompanyName);
+			+ " & " + germanCompanyName);
 	}
 }
