@@ -13,7 +13,9 @@ class L8_DoWhileLoop {
 			System.out.print("Please enter \"99\": ");
 			number = scannedNumber.nextShort();
 		} while (number != 99);
-
+		
+		scannedNumber.close();
+		
 		System.out.println("Right!");
 	}
 }
