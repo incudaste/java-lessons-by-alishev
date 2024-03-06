@@ -18,8 +18,6 @@ class L18_EncapsulationSettersAndGetters {
 class Food {
 	
 	private String name;
-	private float price;
-	private boolean isFit;
 	
 	public void setName(String receivedName) {
 		if (receivedName.isEmpty()) {
@@ -32,6 +30,8 @@ class Food {
 	public String getName() {
 		return name;
 	}
+
+	private float price;
 	
 	public void setPrice(float receivedPrice) {
 		if ((receivedPrice < 0) | (receivedPrice == 0)) {
@@ -44,6 +44,8 @@ class Food {
 	public float getPrice() {
 		return price;
 	}
+
+	private boolean isFit;
 	
 	public void setIsFit(boolean receivedIsFit) {
 		isFit = receivedIsFit;
