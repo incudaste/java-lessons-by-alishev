@@ -39,7 +39,6 @@ class L10_SwitchStatement {
 			default:
 				System.out.println("Not one of the cases.");
 		}
-
 		scannedAge.close();
 	}
 }
