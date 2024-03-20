@@ -7,8 +7,8 @@ import java.text.ParseException;
 class L40_MultipleExceptionsInMethod {
 
 	public static void main(String[] args) throws IOException,
-												   ParseException,
-												   SQLException {
+	                                              ParseException,
+	                                              SQLException {
 		try {
 			runSearch();
 		} catch (IOException | ParseException | SQLException exception) {
@@ -17,7 +17,7 @@ class L40_MultipleExceptionsInMethod {
 	}
 
 	public static void runSearch() throws IOException,
-										   ParseException,
-										   SQLException {
+	                                      ParseException,
+	                                      SQLException {
 	}
 }
